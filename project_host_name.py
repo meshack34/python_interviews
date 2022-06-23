@@ -8,7 +8,7 @@ for i in ("alpha","beta", "gamma"):
         else :
             prowlsize = 1
         for m in range(prowlsize):
-            print(str(i)+"-"+ str(k) +"-0" +" ", str(m+1), end="")
+            print(i + "-"+ k +"-0" + str(m+1), end="")
             
-    print()
+    print("\n")
            
