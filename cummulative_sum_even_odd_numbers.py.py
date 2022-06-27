@@ -4,7 +4,7 @@
 
 sum = 0
 sumodd =0
-counter= int (input("enter num"))
+counter= int (input("enter num: "))
 for i in range(counter):
     if (i % 2==0):
         sum = sum +i
