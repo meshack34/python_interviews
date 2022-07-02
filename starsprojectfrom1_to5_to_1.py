@@ -14,7 +14,6 @@ s= int(input("Enter Number: "))
 
 for i in range(s+1):
     print("*"* (i+1))
-
-for i in range(s-1,0, -1):
-    print("*"* (i))
+    for k in range(i**i):
+     print("*"* (i))
     

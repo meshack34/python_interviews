@@ -1,7 +1,9 @@
+a=[5,2,'+','C','D']
+b=[]
 class Solution(object):
-    def calPoints(self, ops):
+    def calPoints(self, a):
         stack = []
-        for op in ops:
+        for op in a:
             if op == '+':
                 stack.append(stack[-1] + stack[-2])
             elif op == 'C':
@@ -12,3 +14,4 @@ class Solution(object):
                 stack.append(int(op))
 
         return sum(stack)
+    calPoints(a,b)
