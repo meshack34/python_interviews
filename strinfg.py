@@ -1,8 +1,9 @@
-x=["memo", "john", "alex"]
-print ("hello " + (x))
 
     
-    
+x=("memo", "john", "alex")   
 def memo_hello(name):
-    print ("hello " +x)
-    return(x)
+  
+    print ("hello " +str(x) )
+    return((x))
+
+
