@@ -1,8 +1,4 @@
-x=["memo", "john", "alex"]
-print ("hello " + (x))
+name=("memo", "john", "alex")
 
-    
-    
-def memo_hello(name):
-    print ("hello " +x)
-    return(x)
+for i in name: 
+        print ("hello " + str(i))
