@@ -1,4 +1,4 @@
-x=["memo", "john", "alex"]
-    
-for i in x:
-    print("hello " + str(i))
+name=("memo", "john", "alex")
+
+for i in name: 
+        print ("hello " + str(i))
